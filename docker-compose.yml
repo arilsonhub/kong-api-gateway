@@ -41,8 +41,6 @@ services:
       PGADMIN_DEFAULT_PASSWORD: "pgadmin123"
     ports:
       - "81:80"
-    depends_on:
-      - kong-database
     networks:
       - kong-net
 
